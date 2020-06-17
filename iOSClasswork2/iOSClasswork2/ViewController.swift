@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         
         if animal == "cat"{emojiArray.append("😸")}
         else if animal == "dog"{emojiArray.append("🐶")}
+        else if animal == "horse"{emojiArray.append("🐴")}
+        else if animal == "tiger"{emojiArray.append("🐯")}
+        else if animal == "lion"{emojiArray.append("🦁")}
+        else if animal == "whale"{emojiArray.append("🐳")}
+        else if animal == "spider"{emojiArray.append("🕷️")}
+        else if animal == "snail"{emojiArray.append("🐌")}
         else if animal == "panda"{emojiArray.append("🐼")}
         else if animal == "monkey"{emojiArray.append("🐵")}
         else {emojiArray.append("❓")}
